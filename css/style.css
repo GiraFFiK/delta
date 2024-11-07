@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.table-container {
+    margin: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+td:first-child{
+    text-align: left;
+}
+
+thead {
+    background-color: #f2f2f2;
+}
+
+tbody tr:hover {
+    background-color: #e0f7fa;
+    cursor: pointer;
+}
+
+.percentage {
+    font-weight: bold;
+}
+
+#chart-container {
+    width: 600px;
+    height: 400px;
+    margin: 20px auto;
+}
+
+#data-table canvas {
+    width: 300px;
+    height: 300px;
+}
